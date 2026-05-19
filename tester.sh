@@ -6,31 +6,10 @@ if [ ${#} -ge 1 ]; then
 	BINARIES=("$1")
 else
 	BINARIES=(
-		corewar-panda-1
-		corewar-panda-2
-		corewar-panda-3
-		corewar-icarus-1
-		corewar-icarus-2
-		corewar-apollon-1
-		corewar-apollon-2
-		corewar-migi-1
-		corewar-migi-2
-		corewar-migi-3
-		corewar-snake-1
-		corewar-snake-2
-		corewar-snake-3
-		corewar-snake-4
-		corewar-snake-5
-		corewar-snake-6
-		corewar-expension-1
-		corewar-expension-2
-		corewar-expension-3
 		corewar-mandom-1
 		corewar-mandom-2
 	)
 fi
-
-../champions/asm ../champions/*.s
 
 COR_FILES=()
 for f in *.cor; do
