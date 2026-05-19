@@ -24,10 +24,6 @@ You can also use `tester.sh`:
 
 ## How to win
 
-### 1.
+### 1/2.
 
-Create a champion that moves backward to position 1000 in memory.
-
-### 2.
-
-Create a champion that moves backward to position 1000 in memory.
+Create a champion that moves backward in memory.
